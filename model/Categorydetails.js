@@ -10,5 +10,5 @@ const catschema=new sc({
     Cname:String,
     Status:String
 });
-var catmodel=mongoose.model("cate",catschema)
-module.exports=catmodel;
+var catemodel=mongoose.model("cate",catschema)
+module.exports=catemodel;
